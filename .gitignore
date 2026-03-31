@@ -1,0 +1,25 @@
+# Ignore ALL datasets (important)
+datasets/
+
+# Ignore large data formats (extra safety)
+*.jpg
+*.png
+*.tif
+*.jpeg
+
+# ML model files
+*.h5
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+venv/
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
